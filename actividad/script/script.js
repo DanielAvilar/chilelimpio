@@ -8,7 +8,7 @@ error.style.color = 'red';
         //aca van las validaciones IF
             if(edad.value<18 || edad.value>35 || edad.length === null){
                 mensajesError.push("Ingrese edad mayor a 18 años y menor a 35");
-                console.log('menor de edad');
+                console.log('Rango de edad insuficiente');
             
   
         }
