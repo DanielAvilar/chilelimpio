@@ -1,0 +1,14 @@
+.formulario{
+
+    width: 52%; 
+    height: auto; 
+    background-color: aquamarine; 
+ 
+}
+.errores{
+    display: none;
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 14%;
+}
+
