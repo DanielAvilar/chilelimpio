@@ -34,7 +34,7 @@ $(document).ready(function(){
 
                 }
                 else{
-                    $("#mensaje2").fadeOut;
+                    $("#mensaje2").fadeOut();
                     if(apmaterno == ""){
                         $("#mensaje3").fadeIn();
                         return false;
@@ -86,8 +86,9 @@ $(document).ready(function(){
                                             "Profesión: " + profesion + "\n" +
                                             "Motivación para postular: " + motivacion;
                                             
-                                            $("#carta").val() = carta;
-                                            return false;
+                                            $("#carta").val(carta)
+                                            alert(carta)
+                                            
                                         }
                                     }
                                 }
